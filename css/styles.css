@@ -26,21 +26,22 @@ button {
 body {
   font-family: var(--main-font-family);
   color: var(--primary-text-color);
+  background-color: #ffffff;
 }
 
 /* Header */
 .logo,
 .part-logo {
   font-family: var(--secondary-font-family);
-  color: var(--secondary-text-color);
+  color: var(--accent-color);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .part-logo {
-  color: var(--accent-color);
+  color: var(--secondary-text-color);
 }
 .menu-link {
   font-weight: 500;
@@ -53,12 +54,14 @@ body {
 .menu-link:focus {
   color: var(--hover-focus-color);
 }
+.contacts {
+  font-style: normal;
+}
 .contact-information-link:hover,
 .contact-information-link:focus {
   color: var(--hover-focus-color);
 }
 .contact-information-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -72,7 +75,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -114,7 +117,7 @@ body {
 .team-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -152,15 +155,15 @@ body {
 .footer-logo,
 .footer-part-logo {
   font-family: var(--secondary-font-family);
-  color: var(--text-color-theme-dark);
+  color: var(--accent-color);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-part-logo {
-  color: var(--accent-color);
+  color: var(--text-color-theme-dark);
 }
 
 /* Portfolio */
